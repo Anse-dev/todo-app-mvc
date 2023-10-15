@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  background-color: wheat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+}
+
+.form-add-tache {
+  background-color: white;
+  border-radius: 0.4rem;
+  padding: 12px 24px;
+}
+
+.fields-group {
+  position: relative;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+}
+
+.fields-group input {
+  padding: 12px 24px 12px 5px;
+  border: none;
+  border-bottom: 1px solid grey;
+  font-size: 1rem;
+}
+
+.add-button {
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 50%;
+  background-color: #022e72;
+  color: #fff;
+  border-top-left-radius: 0.4rem;
+  border-top-right-radius: 0.4rem;
+  text-transform: uppercase;
+}
+.checkbox-group {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
