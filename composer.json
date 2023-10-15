@@ -1,0 +1,17 @@
+{
+  "name": "anse/todo-app",
+  "description": "Application de gestion des tâches",
+  "type": "project",
+  "autoload": {
+    "psr-4": {
+      "Anse\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Anselme",
+      "email": "jean66.anselme@gmail.com"
+    }
+  ],
+  "require": {}
+}
